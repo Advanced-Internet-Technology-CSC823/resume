@@ -229,6 +229,7 @@
 		margin-top:1.5em;
 		width: 20em;
 		font-size: 1.30em;
+		text-align:center;
 	}
 		
 /*********************************************************************************/
@@ -298,7 +299,7 @@
 	}
 
 /*********************************************************************************/
-/* Nav                                                                          */
+/* Nav                                                                           */
 /*********************************************************************************/
 
 	nav
@@ -355,6 +356,7 @@
 
 	#banner
 	{
+		width:100%;
 	}
 
 /*********************************************************************************/
@@ -389,7 +391,7 @@
 	}
 	
 /*********************************************************************************/
-/* Gallery                                                                   */
+/* Gallery                                                                       */
 /*********************************************************************************/
 	#gallery
 	{
@@ -419,6 +421,16 @@
 	ul.style4 li a img
 	{
 		width:350px;
+	}
+	
+	ul.style4 li input[type='image']
+	{
+		width:350px
+	}
+	
+	ul.style4 h2 
+	{
+		margin:2em 0em 0em 2em;
 	}
 /*********************************************************************************/
 /* Sidebar                                                                       */
@@ -460,7 +472,7 @@
 	}
 
 /*********************************************************************************/
-/* Login Form                                                                        */
+/* Login Form                                                                    */
 /*********************************************************************************/
 
 	.login-box
@@ -495,7 +507,84 @@
 		border:solid 1px #efeeed;
 	}
 	
+/*********************************************************************************/
+/* Details Form                                                                  */
+/*********************************************************************************/
+	#dets
+	{
+		margin-left: 6em;
+	}
+	
+	#dets h2 
+	{
+		margin-top:10em;
+		margin-bottom:1em;
+	}
+	
+	#dets form
+	{
+		margin-left:2em;
+	}
 
+	#dets form p
+	{
+		margin-left:4em;
+	}
+	
+	#dets form label
+	{
+		display:inline-block;
+		width: 180px;
+	}
+
+	#dets input[type='text'], #dets textarea, #dets input[type='email'], #dets select, #dets input[type='date']
+	{
+		margin-bottom:10px;
+		box-sizing:border-box;
+		padding:10px;
+		border-radius:2px;
+		border:solid 1px #ccc;
+	}
+	
+	#dets input[type='text'], #dets textarea, #dets input[type='email']
+	{
+		width:50%;
+	}
+	
+	#dets textarea
+	{
+		height: 10em;
+	}
+	
+	.lblAdj 
+	{
+		 top:-7.8em; 
+		 position:relative;
+	}
+	
+	.btn
+	{
+		display: inline-block;
+		padding: 1em 3em 1em 2em;
+		letter-spacing: 0.20em;
+		text-decoration: none;
+		text-transform: uppercase;
+		font-weight: 400;
+		font-size: 0.90em;
+		color: #FFF;
+		background-color: #1eaedb;
+		border-color: #1eaedb;
+		border-radius: 4px;
+		border: 1px solid #bbb;
+		cursor: pointer;
+		box-sizing: border-box;
+		margin: 0em 0em 2em 60em;
+	}
+	
+	.more
+	{
+			margin: 0em 0em 2em 40em;
+	}
 /*********************************************************************************/
 /* Footer                                                                        */
 /*********************************************************************************/
@@ -549,7 +638,7 @@
 	}
 
 /*********************************************************************************/
-/* Contact Us Form                                                                        */
+/* Contact Us Form                                                               */
 /*********************************************************************************/
 	#connect-form 
 	{

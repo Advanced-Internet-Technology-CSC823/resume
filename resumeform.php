@@ -15,10 +15,10 @@
     </div>
     <nav id="menu">
         <ul>
-            <li><a href="index.html" accesskey="1" title="">Homepage</a></li>
-            <li><a href="#" accesskey="2" title="">About Us</a></li>
-            <li class="current_page_item"><a href="#" accesskey="3" title="">Build</a></li>
-            <li><a href="contact-us.html" accesskey="4" title="">Contact Us</a></li>
+            <li><a href="index.html" accesskey="1" title="Homepage">Homepage</a></li>
+            <li><a href="#" accesskey="2" title="About Us">About Us</a></li>
+            <li class="current_page_item"><a href="#" accesskey="3" title="Build">Build</a></li>
+            <li><a href="contact-us.html" accesskey="4" title="Contact Us">Contact Us</a></li>
         </ul>
     </nav>
 </div></div>
@@ -36,6 +36,7 @@
     <div id="dets">
         <h2>Step 2: Input details...</h2>
         <form>
+        	<input type="hidden" value="<?php echo "data passed between pages"; ?>">
             <h3>Biodata</h3>
             <p>
                 <label for="address">Address:</label>
