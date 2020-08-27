@@ -38,6 +38,37 @@
         <form>
         	<input type="hidden" value="<?php echo "data passed between pages"; ?>">
             <h3>Biodata</h3>
+            <h3>Personal Data</h3>
+            <p>
+                <label for="Title">Title:</label>
+                <select>
+                    <option>Alh.</option>
+                    <option>Barr.</option>
+                    <option>Dr.</option>
+                    <option>Miss.</option>
+                    <option>Mr.</option>
+                    <option>Mrs.</option>
+                </select>
+            </p>
+            <p>
+                <label for="lastName">Last Name:</label>
+                <input type="text" name="lastName">
+            </p>
+        
+            <p>
+                <label for="otherNames">Other Names:</label>
+                <input type="text" name="otherNames">
+            </p>
+
+			<p>
+            	<label>Gender:</label>
+                    <label for="female" class="reduced">Female</label>
+                    <input type="radio" id="female" name="gender" value="female"><br>
+                <label></label>                  
+                    <label for="male" class="reduced">Male</label>
+                    <input type="radio" id="male" name="gender" value="male">
+            </p>
+            
             <p>
                 <label for="address">Address:</label>
                 <input type="text" name="address">

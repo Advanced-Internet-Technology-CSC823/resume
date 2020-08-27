@@ -556,6 +556,11 @@
 		height: 10em;
 	}
 	
+	#dets form label.reduced
+	{
+		width: 5em;
+	}
+	
 	.lblAdj 
 	{
 		 top:-7.8em; 
