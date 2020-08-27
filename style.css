@@ -537,7 +537,7 @@
 		width: 180px;
 	}
 
-	#dets input[type='text'], #dets textarea, #dets input[type='email'], #dets select, #dets input[type='date']
+	#dets input[type='text'], #dets textarea, #dets input[type='email'], #dets select, #dets input[type='date'], #dets input[type='password']
 	{
 		margin-bottom:10px;
 		box-sizing:border-box;
